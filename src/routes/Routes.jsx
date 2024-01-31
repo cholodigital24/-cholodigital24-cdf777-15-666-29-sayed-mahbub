@@ -5,7 +5,6 @@ import PrivetRoute from "./PrivetRoute";
 import PDFViewer from "../Components/Pages/Documents/PDFViewer";
 import Settings from "../Components/Pages/Settings/Settings";
 import LoginPage from "../Components/Pages/LoginPage";
-import SingUpPage from "../Components/Pages/SingupPage";
 
 export const router = createBrowserRouter([
   {
@@ -15,10 +14,6 @@ export const router = createBrowserRouter([
       {
         path: "/login",
         element: <LoginPage />,
-      },
-      {
-        path: "/singup",
-        element: <SingUpPage />,
       },
       {
         path: "/",
